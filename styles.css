@@ -222,7 +222,8 @@ body {
 .a-text-div {
     opacity: 0;
     animation: showText 1s ease-in-out 3s forwards; /* Задержка 2.5 секунды */
-    text-align: center
+    text-align: center;
+    z-index: 10;
 }
 
 .a-text {
@@ -239,6 +240,7 @@ body {
         0 0 10px #4a00e0,
         0 0 20px #8e2de2,
         0 0 10px #1a1a2e;
+    z-index: 10; 
 }
 
 
